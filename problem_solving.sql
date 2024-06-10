@@ -55,4 +55,13 @@ INSERT INTO Invités (id_invite, nom, status) VALUES (5,
 'Suspect');
 
 
-
+INSERT INTO rooms (id_room, nom) VALUES (1,
+'Salle de Bal');
+INSERT INTO rooms (id_room, nom) VALUES (2,
+'Bibliothèque');
+INSERT INTO rooms (id_room, nom) VALUES (3,
+'Cuisine');
+INSERT INTO rooms (id_room, nom) VALUES (4,
+'Salon');
+INSERT INTO rooms (id_room, nom) VALUES (5,
+'Jardin');
