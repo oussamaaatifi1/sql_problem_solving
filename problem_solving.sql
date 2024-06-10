@@ -31,3 +31,28 @@ create table Indices (
 	id_room int,
 	FOREIGN KEY (id_room) REFERENCES Rooms(id_room));
 
+
+
+INSERT INTO Invités (id_invite, nom, status) VALUES (1,
+'Jean Dupont'
+,
+'Suspect');
+INSERT INTO Invités (id_invite, nom, status) VALUES (2,
+'Marie Curie'
+,
+'Innocent');
+INSERT INTO Invités (id_invite, nom, status) VALUES (3,
+'Albert Einstein'
+,
+'Suspect');
+INSERT INTO Invités (id_invite, nom, status) VALUES (4,
+'Isaac Newton'
+,
+'Innocent');
+INSERT INTO Invités (id_invite, nom, status) VALUES (5,
+'Niels Bohr'
+,
+'Suspect');
+
+
+
